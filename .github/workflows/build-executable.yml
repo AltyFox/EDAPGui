@@ -29,7 +29,7 @@ jobs:
       run: |
         $Env:CL = "/Od"
         $Env:PYINSTALLER_COMPILE_BOOTLOADER = "true"
-        python -m pip install --force-reinstall --ignore-installed --no-binary :all: --no-cache pyinstaller@git+https://github.com/pyinstaller/pyinstaller.git@0d562b5
+        python -m pip install --force-reinstall --ignore-installed --no-binary :all: --no-cache pyinstaller@git+https://github.com/pyinstaller/pyinstaller.git@92e79d2
         $Env:CL = ""
         
     # Add version info file
